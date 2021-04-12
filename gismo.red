@@ -24,7 +24,7 @@ check-site: func [face] [
 ]
 
 open-site: func [face] [
-  call/shell append "start " face/extra/url
+  call/shell rejoin ["start " face/extra/url]
 ]
 
 foreach site sites [
