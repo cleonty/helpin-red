@@ -3,14 +3,7 @@ Red [
   title: "Zowe Monitor"
 ]
 
-sites: [
-	[url https://rs28.rocketsoftware.com:56564/api/v1/zss/plugins	title "ZSS troughthout Gateway"]
-  [url https://rs28.rocketsoftware.com:59342/plugins	title "ZSS"]
-	[url https://rs28.rocketsoftware.com:59344	title "App Server"]
-	[url https://example.com title "Example"]
-	[url https://github.com/cleonty title "Github"]
-]
-
+sites: load %sites.cfg
 size: 250x23
 
 indicators: [
