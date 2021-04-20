@@ -1,3 +1,6 @@
 libRedRT*
 *.exe
 *.cer*
+sites.cfg
+*.txt
+*.r
